@@ -66,4 +66,8 @@ public class HystrixValueImpl extends HystrixCommand<Object> implements IValueSe
         return JSON.parseObject(doHystrix.returnJson(), method.getReturnType());
     }
 
+
+
+
+
 }
