@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "bugstack.whitelist",
+      "type": "cn.middleware.whitelist.WhiteListProperties",
+      "sourceType": "cn.middleware.whitelist.WhiteListProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "bugstack.whitelist.users",
+      "type": "java.lang.String",
+      "sourceType": "cn.middleware.whitelist.WhiteListProperties"
+    }
+  ],
+  "hints": []
+}
