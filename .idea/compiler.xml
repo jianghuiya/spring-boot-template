@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="test" />
+        <module name="rpc" />
+        <module name="interceptor" />
+        <module name="whitelist" />
+        <module name="orm" />
+        <module name="redis" />
+        <module name="lmit_traffic" />
+        <module name="data_base_routing" />
+        <module name="es_jdbc" />
+        <module name="distributed_task_scheduling" />
+        <module name="time_out_fuse" />
+        <module name="asm" />
+        <module name="jvmti" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="distributed_task scheduling" target="8" />
+      <module name="spring-boot-template" target="8" />
+      <module name="whitelist1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="asm" options="-parameters" />
+      <module name="data_base_routing" options="-parameters" />
+      <module name="distributed_task_scheduling" options="-parameters" />
+      <module name="es_jdbc" options="-parameters" />
+      <module name="interceptor" options="-parameters" />
+      <module name="jvmti" options="-parameters" />
+      <module name="lmit_traffic" options="-parameters" />
+      <module name="orm" options="-parameters" />
+      <module name="redis" options="-parameters" />
+      <module name="rpc" options="-parameters" />
+      <module name="test" options="-parameters" />
+      <module name="time_out_fuse" options="-parameters" />
+      <module name="whitelist" options="-parameters" />
+    </option>
+  </component>
+</project>

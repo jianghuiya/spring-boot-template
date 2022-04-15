@@ -1,0 +1,5 @@
+META-INF/spring-configuration-metadata.json
+cn/middleware/whitelist/config/WhiteListAutoConfigure.class
+cn/middleware/whitelist/annotation/DoWhiteList.class
+cn/middleware/whitelist/DoJoinPoint.class
+cn/middleware/whitelist/WhiteListProperties.class
