@@ -1,3 +1,4 @@
-/Users/fanfanjianghui/IdeaProjects/spring-boot/test/src/main/java/cn/middleware/test/ApiTestApplication.java
-/Users/fanfanjianghui/IdeaProjects/spring-boot/test/src/main/java/cn/middleware/test/whitelist/controller/UserController.java
-/Users/fanfanjianghui/IdeaProjects/spring-boot/test/src/main/java/cn/middleware/test/whitelist/entity/UserInfo.java
+/Users/fanfanjianghui/IdeaProjects/spring-boot-template/test/src/main/java/cn/middleware/test/whitelist/entity/UserInfo.java
+/Users/fanfanjianghui/IdeaProjects/spring-boot-template/test/src/main/java/cn/middleware/test/ApiTestApplication.java
+/Users/fanfanjianghui/IdeaProjects/spring-boot-template/test/src/main/java/cn/middleware/test/whitelist/TestList.java
+/Users/fanfanjianghui/IdeaProjects/spring-boot-template/test/src/main/java/cn/middleware/test/whitelist/controller/UserController.java

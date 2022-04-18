@@ -1,0 +1,4 @@
+cn/middleware/hystrix/DoHystrixPoint.class
+cn/middleware/hystrix/annotation/DoHystrix.class
+cn/middleware/hystrix/value/impl/HystrixValueImpl.class
+cn/middleware/hystrix/value/IValueService.class

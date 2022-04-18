@@ -9,4 +9,5 @@ public interface IValueService {
 
 
     public Object access(ProceedingJoinPoint jp, Method method, DoHystrix doHystrix, Object[] args);
+
 }

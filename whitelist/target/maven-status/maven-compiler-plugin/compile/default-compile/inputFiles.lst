@@ -1,4 +1,4 @@
-/Users/fanfanjianghui/IdeaProjects/spring-boot/whitelist/src/main/java/cn/middleware/whitelist/WhiteListProperties.java
-/Users/fanfanjianghui/IdeaProjects/spring-boot/whitelist/src/main/java/cn/middleware/whitelist/config/WhiteListAutoConfigure.java
-/Users/fanfanjianghui/IdeaProjects/spring-boot/whitelist/src/main/java/cn/middleware/whitelist/annotation/DoWhiteList.java
-/Users/fanfanjianghui/IdeaProjects/spring-boot/whitelist/src/main/java/cn/middleware/whitelist/DoJoinPoint.java
+/Users/fanfanjianghui/IdeaProjects/spring-boot-template/whitelist/src/main/java/cn/middleware/whitelist/config/WhiteListAutoConfigure.java
+/Users/fanfanjianghui/IdeaProjects/spring-boot-template/whitelist/src/main/java/cn/middleware/whitelist/annotation/DoWhiteList.java
+/Users/fanfanjianghui/IdeaProjects/spring-boot-template/whitelist/src/main/java/cn/middleware/whitelist/DoJoinPoint.java
+/Users/fanfanjianghui/IdeaProjects/spring-boot-template/whitelist/src/main/java/cn/middleware/whitelist/WhiteListProperties.java
