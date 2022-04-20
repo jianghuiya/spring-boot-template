@@ -1,5 +1,6 @@
 package cn.middleware.whitelist;
 
+import cn.middleware.tools.method.MethodUnit;
 import cn.middleware.whitelist.annotation.DoWhiteList;
 import com.alibaba.fastjson.JSON;
 import org.apache.commons.beanutils.BeanUtils;
@@ -12,7 +13,9 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
 
 import javax.annotation.Resource;
 import java.lang.reflect.Method;
@@ -24,8 +27,11 @@ public class DoJoinPoint {
 
     private Logger logger = LoggerFactory.getLogger(DoJoinPoint.class);
 
+    @Autowired
+    MethodUnit methodUnit;
+
     @Resource
-    private String whiteListConfig;
+    String whiteListConfig;
 
     @Pointcut("@annotation(cn.middleware.whitelist.annotation.DoWhiteList)")
     public void aopPoint() {
@@ -41,7 +47,7 @@ public class DoJoinPoint {
     public Object doRouter(ProceedingJoinPoint jp) throws Throwable {
 
         // 获取内容
-        Method method = getMethod(jp);
+        Method method = methodUnit.getMethon(jp);
         DoWhiteList whiteList = method.getAnnotation(DoWhiteList.class);
 
         // 获取字段值
@@ -62,11 +68,7 @@ public class DoJoinPoint {
         return returnObject(whiteList, method);
     }
 
-    private Method getMethod(JoinPoint jp) throws NoSuchMethodException {
-        Signature sig = jp.getSignature();
-        MethodSignature methodSignature = (MethodSignature) sig;
-        return jp.getTarget().getClass().getMethod(methodSignature.getName(), methodSignature.getParameterTypes());
-    }
+
 
     // 返回对象
     private Object returnObject(DoWhiteList whiteList, Method method) throws IllegalAccessException, InstantiationException {
