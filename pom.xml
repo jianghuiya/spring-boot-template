@@ -12,15 +12,6 @@
     <modules>
         <module>time_out_fuse</module>
         <module>lmit_traffic</module>
-        <module>interceptor</module>
-        <module>orm</module>
-        <module>es_jdbc</module>
-        <module>rpc</module>
-        <module>data_base_routing</module>
-        <module>redis</module>
-        <module>distributed_task_scheduling</module>
-        <module>asm</module>
-        <module>jvmti</module>
         <module>whitelist</module>
         <module>tools</module>
         <module>test</module>
@@ -88,5 +79,6 @@
         </dependency>
 
     </dependencies>
+
 
 </project>

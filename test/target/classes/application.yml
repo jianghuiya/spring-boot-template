@@ -1,7 +1,0 @@
-server:
-  port: 8081
-
-# 白名单用户
-bugstack:
-  whitelist:
-    users: aaa,111,xiaofuge

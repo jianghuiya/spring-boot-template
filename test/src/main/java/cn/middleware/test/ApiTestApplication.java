@@ -5,12 +5,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+
 @SpringBootApplication
 @Configuration
-@ComponentScan(basePackages = {"cn.middleware.**"})
+@ComponentScan(basePackages = {"cn.middleware.test.**"})
 public class ApiTestApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ApiTestApplication.class, args);
     }
 }
+

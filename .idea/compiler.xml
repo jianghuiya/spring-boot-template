@@ -7,24 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="test" />
-        <module name="rpc" />
-        <module name="interceptor" />
         <module name="whitelist" />
-        <module name="orm" />
-        <module name="redis" />
+        <module name="tools" />
         <module name="lmit_traffic" />
-        <module name="data_base_routing" />
-        <module name="es_jdbc" />
-        <module name="distributed_task_scheduling" />
         <module name="time_out_fuse" />
-        <module name="asm" />
-        <module name="jvmti" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="asm" target="8" />
+      <module name="data_base_routing" target="8" />
       <module name="distributed_task scheduling" target="8" />
-      <module name="spring-boot-template" target="8" />
+      <module name="distributed_task_scheduling" target="8" />
+      <module name="es_jdbc" target="8" />
+      <module name="interceptor" target="8" />
+      <module name="jvmti" target="8" />
+      <module name="orm" target="8" />
+      <module name="redis" target="8" />
+      <module name="rpc" target="8" />
       <module name="whitelist1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -40,8 +39,10 @@
       <module name="orm" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="rpc" options="-parameters" />
+      <module name="spring-boot-template" options="" />
       <module name="test" options="-parameters" />
       <module name="time_out_fuse" options="-parameters" />
+      <module name="tools" options="-parameters" />
       <module name="whitelist" options="-parameters" />
     </option>
   </component>

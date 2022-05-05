@@ -5,11 +5,20 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/whitelist1/pom.xml" />
+        <option value="$PROJECT_DIR$/asm/pom.xml" />
+        <option value="$PROJECT_DIR$/data_base_routing/pom.xml" />
+        <option value="$PROJECT_DIR$/distributed_task_scheduling/pom.xml" />
+        <option value="$PROJECT_DIR$/es_jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/jvmti/pom.xml" />
+        <option value="$PROJECT_DIR$/orm/pom.xml" />
+        <option value="$PROJECT_DIR$/redis/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc/pom.xml" />
       </set>
     </option>
   </component>
