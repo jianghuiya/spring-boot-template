@@ -15,6 +15,7 @@
         <module>whitelist</module>
         <module>tools</module>
         <module>test</module>
+        <module>methodext</module>
     </modules>
 
     <properties>

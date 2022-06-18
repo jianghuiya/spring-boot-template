@@ -3,7 +3,7 @@ package cn.middleware.ratelimiter.valve.impl;
 import cn.middleware.ratelimiter.Constants;
 import cn.middleware.ratelimiter.annotation.DoRateLimiter;
 import cn.middleware.ratelimiter.valve.IValveService;
-import cn.middleware.tools.HttpServletRequest.RequestUnit;
+import cn.middleware.tools.httpServletRequest.RequestUnit;
 import com.alibaba.fastjson.JSON;
 import com.google.common.util.concurrent.RateLimiter;
 import org.aspectj.lang.ProceedingJoinPoint;

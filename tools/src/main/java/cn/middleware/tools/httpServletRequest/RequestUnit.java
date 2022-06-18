@@ -1,4 +1,4 @@
-package cn.middleware.tools.HttpServletRequest;
+package cn.middleware.tools.httpServletRequest;
 
 import org.springframework.stereotype.Component;
 

@@ -10,6 +10,7 @@
         <module name="whitelist" />
         <module name="tools" />
         <module name="lmit_traffic" />
+        <module name="methodext" />
         <module name="time_out_fuse" />
       </profile>
     </annotationProcessing>
@@ -36,6 +37,7 @@
       <module name="interceptor" options="-parameters" />
       <module name="jvmti" options="-parameters" />
       <module name="lmit_traffic" options="-parameters" />
+      <module name="methodext" options="-parameters" />
       <module name="orm" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="rpc" options="-parameters" />
